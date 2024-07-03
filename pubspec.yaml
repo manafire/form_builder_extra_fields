@@ -26,3 +26,9 @@ dev_dependencies:
   flutter_lints: ^4.0.0
   flutter_test:
     sdk: flutter
+
+dependency_overrides:
+  flutter_typeahead:
+    git:
+      url: https://github.com/manafire/flutter_typeahead
+      ref: html_editor_enhanced-2.6.0-compat
